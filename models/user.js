@@ -28,7 +28,18 @@ const userSchema = new mongoose.Schema({
         minlength: 5,
         maxlength: 1024
     },
-    isAdmin: Boolean
+    isAdmin: {
+        type: Boolean,
+        default: true
+    },
+    lastOnline: {
+        type: Date,
+        default: new Date
+    },
+    photoURL: {
+        type: String,
+        default: ""
+    }
 });
 
 userSchema.methods.generateAuthToken = function() {
