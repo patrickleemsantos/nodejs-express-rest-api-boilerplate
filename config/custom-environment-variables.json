@@ -1,3 +1,7 @@
 {
-    "jwtPrivateKey": "app_jwtPrivateKey"
+    "jwtPrivateKey": "app_jwtPrivateKey",
+    "dbHost": "app_dbHost",
+    "dbUsername": "app_dbUsername",
+    "dbPassword": "app_dbPassword",
+    "dbDatabase": "app_dbDatabase"
 }

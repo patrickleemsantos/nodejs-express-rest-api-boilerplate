@@ -1,4 +1,7 @@
 {
     "jwtPrivateKey": "",
-    "db": "mongodb://localhost/myDB_test"
+    "dbHost": "",
+    "dbUsername": "",
+    "dbPassword": "",
+    "dbDatabase": ""
 }

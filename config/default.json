@@ -1,4 +1,7 @@
 {
     "jwtPrivateKey": "",
-    "db": "mongodb://localhost/bdoDB"
+    "dbHost": "",
+    "dbUsername": "",
+    "dbPassword": "",
+    "dbDatabase": ""
 }
